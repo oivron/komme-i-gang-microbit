@@ -4,4 +4,4 @@ Dette gir en løsning som er godt egnet for elever som bruker skjermleser og for
 
 [Du finner veilederen her](https://github.com/oivron/komme-i-gang-microbit/wiki/micro:bit-med-Python:-Komme-i-gang).
 
-[PDF-versjon](https://github.com/oivron/komme-i-gang-microbit/blob/master/microbit%20med%20Python%20-%20Komme%20i%20gang%201.0.pdf).
+[PDF-versjon av veileder](https://github.com/oivron/komme-i-gang-microbit/blob/master/microbit%20med%20Python%20-%20Komme%20i%20gang%201.0.pdf).

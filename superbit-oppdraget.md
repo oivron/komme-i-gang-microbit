@@ -1,4 +1,4 @@
-![micro:bit og Bit:bot XL](https://github.com/oivron/komme-i-gang-microbit/blob/master/img/microbit-og-Bitbot.jpg)
+![micro:bit og Bit:bot XL](https://github.com/oivron/komme-i-gang-microbit/blob/master/img/microbit-og-Bitbot.JPG)
 
 # super:bit-oppdraget
 

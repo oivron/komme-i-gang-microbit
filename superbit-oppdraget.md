@@ -2,9 +2,11 @@
 
 # super:bit-oppdraget
 
+Disse oppgavene er basert på oppgavene fra [super:bit-oppdraget](https://www.vitensenter.no/superbit/laerer/superbit-oppdraget/). Oppgavene er tilrettelagt for synshemmede elever og bruker tekstprogrammering med Python i Visual Studio Code i stedet for blokkbasert programmering i MakeCode. Disse tilrettelagte oppgavene bruker lyd i stedet for visuell output på micro:bit-skjermen.
+
 ## Kom i gang med micro:bit
 
-Målet med øvelsen er å lage enkle programmer i Python og laste dem ned til micro:bit. Oppgavene er basert på oppgavene fra [super:bit-oppdraget](https://www.vitensenter.no/superbit/laerer/superbit-oppdraget/).
+Målet med øvelsen er å lage enkle programmer i Python og laste dem ned til micro:bit.
 
 ### Oppgave: Spill en melodi
 

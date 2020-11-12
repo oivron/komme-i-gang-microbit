@@ -54,6 +54,6 @@ else:
     Kjør roboten rett fram
 ```
 
-6. Lagre endringene du har gjort i programmet (**Ctrl+S**).
-8. Sørg for at roboten er avslått og sett micro:bit inn i roboten. Koble USB-kabelen til micro:bit og overfør programmet med **Ctrl+F5**.
-9. Koble USB-kabelen fra micro:bit. Sett roboten på gulvet litt foran der kjørebanen starter. Slå på roboten med bryteren på baksiden.
+8. Lagre endringene du har gjort i programmet (**Ctrl+S**).
+9. Sørg for at roboten er avslått og sett micro:bit inn i roboten. Koble USB-kabelen til micro:bit og overfør programmet med **Ctrl+F5**.
+10. Koble USB-kabelen fra micro:bit. Sett roboten på gulvet litt foran der kjørebanen starter. Slå på roboten med bryteren på baksiden.

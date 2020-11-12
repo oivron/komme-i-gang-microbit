@@ -1,5 +1,3 @@
-![micro:bit og Bit:bot XL](https://github.com/oivron/komme-i-gang-microbit/blob/master/img/microbit-og-Bitbot.JPG)
-
 # super:bit-oppdraget
 
 Disse oppgavene er basert på oppgavene fra [super:bit-oppdraget](https://www.vitensenter.no/superbit/laerer/superbit-oppdraget/). Oppgavene er tilrettelagt for synshemmede elever og bruker tekstprogrammering med Python i Visual Studio Code i stedet for blokkbasert programmering i MakeCode. Disse tilrettelagte oppgavene bruker lyd i stedet for visuell output på micro:bit-skjermen.

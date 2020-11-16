@@ -20,3 +20,4 @@ Dette er oppgavesamlingen i super:bit-oppdraget. I disse oppgavene får du lære
 ## Etter super:bit-oppdraget
 Her finner du morsomme og utfordrende kodeoppgaver som du kan jobbe med etter super:bit-oppdraget.
 - [Etter super:bit-oppdraget](https://github.com/oivron/komme-i-gang-microbit/blob/master/etter-superbit-oppdraget.md)
+- [Etter super:bit-oppdraget - Tips til lærere](https://github.com/oivron/komme-i-gang-microbit/blob/master/etter-superbit-oppdraget-tips.md)

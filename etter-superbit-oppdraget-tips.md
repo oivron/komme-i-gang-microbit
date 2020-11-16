@@ -1,4 +1,4 @@
-# Etter super:bit-oppdraget
+# Etter super:bit-oppdraget - Tips til lærere
 
 Disse oppgavene er basert på oppgavene fra [Etter super:bit-oppdraget](https://www.vitensenter.no/superbit/elev/etter-superbit-oppdraget/). Oppgavene er tilrettelagt for synshemmede elever og bruker tekstprogrammering med Python i Visual Studio Code i stedet for blokkbasert programmering i MakeCode.
 

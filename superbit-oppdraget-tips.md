@@ -247,10 +247,16 @@ bitbot.goms(FORWARD, 30, <millisekunder>)
 ```
 
 5. Hvilken verdi må du sette inn i stedet for millisekunder for at roboten skal gå én meter rett fram? Verdien skal altså oppgis i millisekunder. Hvor mye er det?
-6. Lagre programmet ditt, koble til micro:bit og overfør med **Ctrl+F5**.
-7. Pass på at roboten er avslått. Koble USB-ledningen fra micro:bit og sett den inn i sporet på roboten slik at de to knappene (A og B) vender framover.
-8. Sett roboten på gulvet og slå den på med bryteren på baksiden. (Trykk på reset-knappen på baksiden av micro:bit, hvis roboten ikke starter automatisk.)
-9. Hvor langt kjørte roboten? For kort eller for langt? Hva må du gjøre for å få roboten til å komme nærmere en meter?
+6. Valgfritt: Det går an å programmere roboten slik at den lager pipesignaler. Du kan for eksempel få den til å pipe når den er ferdig med å kjøre. Erstatt millisekunder i koden under med antall millisekunder du vil at den skal pipe:
+
+```
+bitbot.buzz(<millisekunder>)
+```
+
+7. Lagre programmet ditt, koble til micro:bit og overfør med **Ctrl+F5**.
+8. Pass på at roboten er avslått. Koble USB-ledningen fra micro:bit og sett den inn i sporet på roboten slik at de to knappene (A og B) vender framover.
+9. Sett roboten på gulvet og slå den på med bryteren på baksiden. (Trykk på reset-knappen på baksiden av micro:bit, hvis roboten ikke starter automatisk.)
+10. Hvor langt kjørte roboten? For kort eller for langt? Hva må du gjøre for å få roboten til å komme nærmere en meter?
 
 ### Deloppgave B
 
@@ -285,6 +291,7 @@ from bitbot import *
 bitbot.goms(FORWARD, 30, 3500)
 bitbot.spinms(LEFT, 30, 650)
 bitbot.goms(FORWARD, 30, 3500)
+bitbot.buzz(400)
 ```
 
 </details>
@@ -323,36 +330,19 @@ Utstyr: micro:bit, Bit:bot XL, Visual Studio Code, sort elektrikertape.
 
 1. Lag en ny fil (**Ctrl+N**) i Visual Studio Code.
 2. Lagre filen (**Ctrl+S**).
-3. Du trenger den vanlige import-setningen for micro:bit og import-setning for bitbot-modulen:
+3. Valgfritt: Sett inn pipesignaler der du vil i programmet ditt, for eksempel når roboten starter, svinger eller stopper.
+4. Du trenger den vanlige import-setningen for micro:bit og import-setning for bitbot-modulen:
 
 ```
 from microbit import *
 from bitbot import *
 ```
-4. Bruk det du har lært i forrige oppgave til å kjøre roboten langs veien fra start til mål.
-5. Hvor lang er den første rette veistrekningen? Bruk gjerne målebånd eller tommestokk.
-6. Hvor mange grader er den første svingen?
-7. Lagre endringer i programmet ditt.
-8. Slå av roboten og sett micro:bit inn i roboten. Koble USB-kabelen til micro:bit og overfør programmet med **Ctrl+F5**.
-9. Koble USB-kabelen fra micro:bit. Sett roboten på gulvet der veien starter. Slå på roboten med bryteren på baksiden.
-10. Klarte roboten å følge veien fra start til mål? Gjør nødvendige endringer hvis roboten ikke fulgte veien fra start til mål.
-
-#### Løsningsforslag
-```
-from microbit import *
-from bitbot import *
-
-# For å unngå at roboten vingler for mye når den kjører, lønner det 
-# seg å gjøre veldig små justeringer av retningen. Her har jeg brukt
-# 10 % hastighet i bare ett millisekund.
-
-while True:
-    if (bitbot.linesensor(RIGHT) == 1):
-        bitbot.spinms(RIGHT, 10, 1)
-    elif (bitbot.linesensor(LEFT) == 1):
-        bitbot.spinms(LEFT, 10, 1)
-    else:
-        bitbot.go(FORWARD, 20)
-```
+5. Bruk det du har lært i forrige oppgave til å kjøre roboten langs veien fra start til mål.
+6. Hvor lang er den første rette veistrekningen? Bruk gjerne målebånd eller tommestokk.
+7. Hvor mange grader er den første svingen?
+8. Lagre endringer i programmet ditt.
+9. Slå av roboten og sett micro:bit inn i roboten. Koble USB-kabelen til micro:bit og overfør programmet med **Ctrl+F5**.
+10. Koble USB-kabelen fra micro:bit. Sett roboten på gulvet der veien starter. Slå på roboten med bryteren på baksiden.
+11. Klarte roboten å følge veien fra start til mål? Gjør nødvendige endringer hvis roboten ikke fulgte veien fra start til mål.
 
 </details>

@@ -31,7 +31,7 @@ from bitbot import *
 while True:
 ```
 
-5. Her er det viktig at vi passer på hvor kjørebanen går. Programmet ditt må følge med på om veien svinger, enten til venstre eller til høyre. Det kan du gjøre ved å følge med på om tallet som linjesensorene sender er 0 eller 1. Hvis en av linjesensorene sender tallet 1, vet du at sensoren har kommet over den svarte linja. Da må du justere retningen slik at roboten svinger i den retningen som veien svinger.
+5. Her er det viktig at programmet passer på hvor kjørebanen går. Programmet ditt må følge med på om veien svinger, enten til venstre eller til høyre. Det kan du gjøre ved å følge med på om tallet som linjesensorene sender er 0 eller 1. Hvis en av linjesensorene sender tallet 1, vet du at sensoren har kommet over den svarte linja. Da må du justere retningen slik at roboten svinger i den retningen som veien svinger.
 
     Du kan sjekke om høyre linjesensor sender tallet 1 ved å bruke funksjonen linesensor() i bitbot-modulen. Hvis tallet er 1, må du svinge roboten litt mot høyre. Hvilken instruksjon vil du bruke i stedet for "Sving roboten litt mot høyre"?
 
@@ -57,3 +57,47 @@ else:
 8. Lagre endringene du har gjort i programmet (**Ctrl+S**).
 9. Sørg for at roboten er avslått og sett micro:bit inn i roboten. Koble USB-kabelen til micro:bit og overfør programmet med **Ctrl+F5**.
 10. Koble USB-kabelen fra micro:bit. Sett roboten på gulvet litt foran der kjørebanen starter. Slå på roboten med bryteren på baksiden.
+
+</details>
+&nbsp;
+
+---
+
+## Lag en robotgressklipper som unngår hindringer
+
+Smartbyen har noen robotgressklippere som skal kjøre rundt i parkene og klippe gresset. Hjelp til med å lage et program sånn at de ikke kolliderer med ting og tang ved å bruke ultralydsensoren til å måle avstanden til hindringer.
+
+En ultralydsensor, eller sonar som det også kalles, bruker lyd til å måle avstand. Den sender ut lydsignaler og måler tiden det tar før lyden reflekterer tilbake fra omgivelsene. Desto lengre tid det tar før lyden kommer tilbake, desto lengre unna er hindringen. Sonarer brukes på alt fra ryggesensorer til ubåter.
+
+I denne oppgaven innfører vi to nye funksjoner som kan være nyttige: stop() som stopper roboten helt, og go() som kjører roboten rett fram uten stans. Det vil si uten noen tidsbegrensning.
+
+<details>
+<summary>Klikk for å utvide.</summary>
+&nbsp;
+
+Utstyr: micro:bit, Bit:bot XL, ultralydsensor, Visual Studio Code.
+
+1. Lag en ny fil (**Ctrl+N**) i Visual Studio Code.
+2. Lagre filen (**Ctrl+S**).
+3. Du trenger import-setninger for micro:bit og Bit:bot:
+
+```
+from microbit import *
+from bitbot import *
+```
+
+4. Start programmet med en evig løkke (while True) slik du har gjort i tidligere oppgaver.
+
+5. Deretter skal du sjekke om ultralydsensoren (sonaren) måler en avstand på under 10 cm. Hva synes du bør skje hvis avstanden er under 10 cm? Og hva skal skje ellers, dersom avstanden er over 10 cm? Her kan det være lurt å bruke betingelser (if- og else-setninger). For å sjekke om avstanden er under 10 cm, kan du bruke en funksjon som heter sonar():
+
+```
+if bitbot.sonar() < 10:
+    Her bestemmer du hva roboten skal gjøre hvis avstanden er under 10 cm
+```
+
+6. Hva synes du roboten skal gjøre hvis avstanden er under 10 cm?
+
+7. Og hva skal den gjøre ellers?
+
+
+</details>

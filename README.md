@@ -10,7 +10,6 @@ Nedenfor finner du også tilrettelagte oppgaver for denne elevgruppen og tips ti
 
 ## Veilederen
 - [Online-versjon](https://github.com/oivron/komme-i-gang-microbit/wiki/micro:bit-med-Python:-Komme-i-gang)
-- [PDF-versjon](https://github.com/oivron/komme-i-gang-microbit/blob/master/microbit%20med%20Python%20-%20Komme%20i%20gang%201.0.pdf)
 
 ## super:bit-oppdraget
 Dette er oppgavesamlingen i super:bit-oppdraget. I disse oppgavene får du lære deg å bruke micro:bit og roboten Bit:bot XL.

@@ -276,6 +276,8 @@ bitbot.spinms(<retning>, 30, <millisekunder>)
 
 ## Kjør ei løype med BitBot
 
+![Bane på gulvet laget med elektrikertape](https://github.com/oivron/coding-without-seeing/blob/master/img/Arduino%20IDE.png)
+    
 I den forrige oppgaven programmerte du roboten til å kjøre én meter fremover, snu 180 grader og kjøre tilbake. I denne oppgaven skal du få roboten til å kjøre fra start til mål på en vei på gulvet. Kan du bruke noe av det du lærte tidligere i denne oppgaven?
 
 <details>

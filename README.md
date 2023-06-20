@@ -1,4 +1,5 @@
 # Komme i gang med micro:bit
+Her finner du en **Komme i gang-veileder** og **tilrettelagte oppgaver** for å programmere **micro:bit med Python i Visual Studio Code for Windows**.
 Veileder for å komme i gang med å programmere micro:bit med Python i Visual Studio Code for Windows.
 Dette gir en løsning som er godt egnet for elever som bruker skjermleser og for elever med moderat og alvorlig synssvekkelse som leser visuelt.
 

@@ -1,11 +1,9 @@
 # Komme i gang med micro:bit
 Her finner du en **Komme i gang-veileder** og **tilrettelagte oppgaver** for å programmere **micro:bit med Python i Visual Studio Code for Windows**.
-Veileder for å komme i gang med å programmere micro:bit med Python i Visual Studio Code for Windows.
-Dette gir en løsning som er godt egnet for elever som bruker skjermleser og for elever med moderat og alvorlig synssvekkelse som leser visuelt.
 
-Veilederen passer godt for elever som skal i gang med [super:bit-prosjektet](https://www.superbit.no/), men også for elever som skal programmere micro:bit ellers i skolen.
+Veilederen gir en løsning som er godt egnet for **elever med blindhet, svaksynthet og hjernerelaterte synsvansker** som skal programmere micro:bit. Den passer godt for elever som skal i gang med micro:bit i skolen, enten gjennom super:bit-prosjektet eller mer generelt. [Hva er super:bit?](https://www.superbit.no/).
 
-Nedenfor finner du også tilrettelagte oppgaver for denne elevgruppen og tips til lærere.
+Nedenfor finner du også tilrettelagte oppgaver for denne elevgruppen og tips til lærere. Oppgavene er basert på
 
 ## Veilederen
 - [micro:bit med Python: Komme i gang](https://github.com/oivron/komme-i-gang-microbit/wiki/micro:bit-med-Python:-Komme-i-gang)
